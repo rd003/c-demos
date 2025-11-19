@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/rest_apis.dir/main.c.o -o rest_apis  vcpkg_installed/x64-linux/lib/libmicrohttpd.a /usr/lib/x86_64-linux-gnu/libpthread.a 
