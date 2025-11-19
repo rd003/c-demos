@@ -1,0 +1,3 @@
+/home/ravindra/Documents/Projects/c-demos/rest_apis/build/CMakeFiles/rest_apis.dir
+/home/ravindra/Documents/Projects/c-demos/rest_apis/build/CMakeFiles/edit_cache.dir
+/home/ravindra/Documents/Projects/c-demos/rest_apis/build/CMakeFiles/rebuild_cache.dir

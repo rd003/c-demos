@@ -1,0 +1,53 @@
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 2293983a1b42be98d577e3be6b70b3e52ecfada75de79c770ec23c19c1fe5dc7
+Status: install ok installed
+
+Package: vcpkg-cmake-get-vars
+Version: 2025-05-29
+Depends: vcpkg-cmake
+Architecture: x64-linux
+Multi-Arch: same
+Abi: cccbf65cd613d22e718575767f312282229ad663ce564dc69922ca41919dc6ce
+Status: install ok installed
+
+Package: vcpkg-make
+Version: 2025-10-26
+Depends: vcpkg-cmake-get-vars
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 4e6fd6096d37b0e9f86d35ed25cb7a17dd52c9a36ab5142fdf3ca9dc042bc043
+Status: install ok installed
+
+Package: gettext-libintl
+Version: 0.22.5
+Port-Version: 4
+Depends: vcpkg-make
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 69a26ecb90ac4f5690e0443deb02ddfdcced6d7881666f64699ac158699c1a22
+Description: The libintl C library from GNU gettext-runtime.
+Status: install ok installed
+
+Package: gettext
+Version: 0.22.5
+Port-Version: 3
+Depends: gettext-libintl
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 7b00636c1f1b920d2912b6a8f653af6332da1c53f01e141ab975d302f89d4746
+Description: A GNU framework to help produce multi-lingual messages.
+Status: install ok installed
+
+Package: libmicrohttpd
+Version: 1.0.1
+Port-Version: 2
+Depends: gettext
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 4b1a909d82ec2cecbd6e79dcc0de222deb66459a0ee686eaa1e6512f7c924ed6
+Description: GNU libmicrohttpd is a small C library that is supposed to make it easy to run an HTTP server as part of another application
+Status: install ok installed
+

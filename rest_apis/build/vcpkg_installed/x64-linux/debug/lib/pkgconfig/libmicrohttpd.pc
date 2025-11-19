@@ -1,0 +1,13 @@
+prefix=${pcfiledir}/../..
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/../include
+
+Name: libmicrohttpd
+Description: A library for creating an embedded HTTP server
+Version: 1.0.1
+Conflicts:
+
+Libs: "-L${libdir}" -lmicrohttpd -lpthread
+Requires:  
+Cflags: "-I${includedir}"
